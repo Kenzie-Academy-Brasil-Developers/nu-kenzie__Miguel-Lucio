@@ -36,6 +36,13 @@
       height: 3.875rem;
       justify-content: space-between;
     }
+
+    .boxTrash {
+      display: flex;
+      flex-direction: column;
+      height: 3.875rem;
+      justify-content: space-between;
+    }
   }
 }
 
@@ -47,6 +54,10 @@
       align-items: center;
       justify-content: space-between;
       width: 100%;
+    }
+
+    .boxTrash {
+      align-items: self-end;
     }
   }
 }

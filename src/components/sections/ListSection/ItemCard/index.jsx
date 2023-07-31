@@ -13,7 +13,7 @@ export const ItemCard = ({ title, amount, typeAmount, id, removeFinance }) => {
             {typeAmount === "entry" ? "Entrada" : "Despesa"}
           </p>
         </div>
-        <div className={styles.boxContent}>
+        <div className={styles.boxTrash}>
           <p className="body gray100">
             {parseFloat(amount).toLocaleString("pt-BR", {
               style: "currency",
